@@ -1,13 +1,35 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello Visitor!!!</h1>
-<p>Unfortunately this site is down currently, for updation.</p>
-  <p> Until then here is a link to my Resume : <a href="https://github.com/deeplokhande/deeplokhande.github.io/raw/master/Resume.pdf"> [ Resume ]</a> </p>
- 
-</body>
-</html>
-
-<!-- ---
+---
 layout: default
---- -->
+---
+
+{% assign data = site.data.data %}
+
+{% if site.open %}
+
+<div class="wrapper">
+
+    {% include header.html%}
+    {% include profile.html %}
+    <!-- {% include experiences.html %} -->
+    <!-- {% include projects.html %} -->
+    <!-- {% include skills.html %} -->
+    {% include education.html %}
+    <p>
+    Site Restructuring in Progress.
+    </p>
+    <!-- {% include certificates.html %} -->
+    <!-- {% include publications.html %} -->
+    <!-- {% include patents.html %} -->
+    <!-- {% include language.html %} -->
+    <!-- {% include interests.html %} -->
+    <!-- {% include evaluation.html %} -->
+
+</div>
+
+{% include footer.html %}
+
+{% else %}
+
+{% include close.html %}
+
+{% endif %}
