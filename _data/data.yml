@@ -1,0 +1,196 @@
+intro:
+  name: Deep K. Lokhande
+  title: Software Developer | AI/ML Developer | Quantum Computing Researcher. 
+  avatar:
+    display: true
+    path: profile.png
+
+contact:
+  email: deep.lokhande@rutgers.edu
+  phone: +1-848-252-0653
+  wechat:
+  whatsapp:
+  telegram:
+  website: deeplokhande.github.io
+  medium:
+  linkedin: https://www.linkedin.com/in/deeplokhande/
+  googlescholar:
+  researchgate:
+  github: https://github.com/deeplokhande/
+  gitlab:
+  bitbucket:
+  twitter: https://twitter.com/DeepLokhande17
+  stackoverflow:
+  quora:
+  goodreads:
+
+# profile:
+#   display: true
+#   title: Profile
+#   details: |
+#     It's your career profile, you can wirte markdown format text.
+#     + First
+#     + Second
+
+#     ...
+
+# experiences:
+#   display: true
+#   title: Experiences
+#   items:
+#     - role: Backend Developer
+#       time: 2018.03 - 2019.03
+#       company: Second Company
+#       tag:
+#       location: Beijing
+#       details: |
+#         Experience in this company:
+#         + First
+#         + Second
+
+#         ...
+
+#     - role: Backend Developer
+#       time: 2017.03 - 2018.03
+#       company: First Company
+#       tag: Remote, part-time
+#       location: Beijing
+#       details: |
+#         Experience in this company:
+#         + First
+#         + Second
+
+#         ...
+
+# projects:
+#   display: true
+#   title: Projects
+#   intro: |
+#     This is all the projects I'm involved in.
+
+#   items:
+#     - name: Foo
+#       link: https://www.google.com
+#       details: |
+#         Project Foo's detail, you can write markdown format text.
+
+#     - name: Bar
+#       link:
+#       details: |
+#         Project Bar's detail, you can write markdown format text.
+
+# skills:
+#   display: true
+#   title: Technical Skills
+#   details: |
+
+#   levels:
+#     - name: Skill A
+#       level: 90
+#     - name: Skill B
+#       level: 80
+#     - name: Skill C
+#       level: 70
+
+education:
+  display: true
+  title: Education
+  items:
+    - university: Rutgers University
+      time: 08/2018 - (Expected)07/2021
+      major: Electrical and Computer Engineering
+      degree: Master of Science
+      # details: |
+        # Experience in this university:
+        # + First
+        # + Second
+
+        # ...
+
+    - university: University of Pune, Pune, India
+      time: 07/2013 - 06/2017
+      major: Electronics and Telecommunications
+      degree: Bachelors
+      # details: |
+        # Experience in this university:
+        # + First
+        # + Second
+# 
+        # ...
+
+# certificates:
+#   display: true
+#   title: Certificates
+#   items:
+#     - name: Course Foo
+#       authority: Coursera
+#       time: 2020
+#       link:
+#       details: |
+#         It's my Course Foo certificate by coursera.
+#     - name: Course Bar
+#       authority: Coursera
+#       time: 2020
+#       link: https://www.google.com
+#       details: |
+
+# publications:
+#   display: true
+#   title: Publications
+#   intro: |
+#     This is all the books I wrote.
+
+#   items:
+#     - title: Foo in Action
+#       authors: Foo Bar
+#       conference: Foobar, 2019
+#       link: https://www.google.com
+#     - title: The Art of Bar
+#       authors: Foo Bar
+#       conference: Foobar, 2019
+#       link:
+
+# patents:
+#   display: true
+#   title: Patents
+#   details: |
+#     This is all my patents.
+#     + 2020\. A patent name is here. CN123456, filed May 15, 2020, and issued July 20, 2020.
+
+languages:
+  display: true
+  title: Languages
+  items:
+    - idiom: English
+      level: Professional
+    - idiom: Marathi
+      level: Native
+    - idiom: Hindi
+      level: Native
+    # - idiom: Marathi
+    #   level: Native          
+
+# interests:
+#   display: true
+#   title: Interests
+#   items:
+#     - item: Reading
+#       link:
+#     - item: Cooking
+#       link:
+
+# evaluation:
+#   display: true
+#   title: Self-evaluation
+#   details: |
+#     Here is my self evaluation.
+#     + First
+#     + Second
+
+#     ...
+
+footer:
+  display: true
+
+close: >
+  Thanks For Visiting!
