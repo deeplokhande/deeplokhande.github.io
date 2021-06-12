@@ -34,63 +34,97 @@ contact:
 
 #     ...
 
-# experiences:
-#   display: true
-#   title: Experiences
-#   items:
-#     - role: Backend Developer
-#       time: 2018.03 - 2019.03
-#       company: Second Company
-#       tag:
-#       location: Beijing
-#       details: |
-#         Experience in this company:
-#         + First
-#         + Second
+experiences:
+  display: true
+  title: Experiences
+  items:
+    - role: Part Time Lecturer
+      time: 02/2021 - 06/2021
+      company: CS 142 - Data 101
+      tag:
+      location: Rutgers University
+      details:
+    - role: Teaching Assistant
+      time: 02/2020 - 06/2020
+      company: EE 366 - Digital Electronics
+      tag:
+      location: Rutgers University
+      details:
+    - role: Research Assistant
+      time: 05/2019 - 08/2019
+      company: Prof. Emina Soljanin's Lab
+      tag:
+      location: Rutgers University
+      details: |
+        - Researched on Quantum Approximate Optimization Algorithm(QAOA) for solving graph based and semi-definite programming problems using NISQ computers.
+        - Implemented the QAOA algorithm for finding the Weighted Max-Cut of a graph using IBM Qiskit.
+    - role: Research Assistant
+      time: 09/2017 - 05/2018
+      company: University of Pune
+      tag:
+      location: University of Pune, India
+      details: |
+        - Researched on unexplored human bio-metrics and security features which can be used in future security system’s with higher security, low cost and system requirements.
+        - Modelled bi-layered security system based on palm print and vein features using low cost DSP’s. 
 
-#         ...
 
-#     - role: Backend Developer
-#       time: 2017.03 - 2018.03
-#       company: First Company
-#       tag: Remote, part-time
-#       location: Beijing
-#       details: |
-#         Experience in this company:
-#         + First
-#         + Second
+projects:
+  display: true
+  title: Projects
+  intro: 
 
-#         ...
+  items:
+    - name: Data Prediction and Interpolation
+      link: 
+      details: |
+        - Analysed raw data from ManyLab’s project, to predict missing data and extract significant features.
+        - Implemented one-hot encoding & normalization on raw data and programmed Bayesian Network tree using Chow-Liu algorithm for feature dependency interference and data interpolation. Predicted satisfactorily(near 67%) of missing data while eliminating irrelevant features present in data.
 
-# projects:
-#   display: true
-#   title: Projects
-#   intro: |
-#     This is all the projects I'm involved in.
+    - name: Data Analysis and Price Prediction of Airbnb Listings
+      link:
+      details: |
+        - Exploratory data analysis on Airbnb listings in NYC, to detect hidden trends and patterns.
+        - Applied Linear Regression, Random Forest & Xtreme Gradient Boosting, with cross validation and feature engineering for parameter tuning, resulted in improved Price prediction accuracy with minimized RMSE.
 
-#   items:
-#     - name: Foo
-#       link: https://www.google.com
-#       details: |
-#         Project Foo's detail, you can write markdown format text.
+    - name: Colorizer for Black & White Image
+      link:
+      details: |
+        - Modeled a linear regression based learning model in python for converting black and white images to color using training on color and black/white duals of images without semantic classification of objects.
+        - Used stochastic gradient descent optimization to minimize MSE objective function & studied factors beneficial to model performance in learning conditions limited to non-contextual & localized features.
 
-#     - name: Bar
-#       link:
-#       details: |
-#         Project Bar's detail, you can write markdown format text.
+    - name: Quantum Error Correcting Codes
+      link:
+      details: |
+        - Studied techniques used in quantum computers and circuits for error correction and fault tolerance.
+        - Implemented the bit flip and phase flip quantum error correcting code, using IBM’s Qiskit services on IBM’s 5 qubit quantum computer.
 
-# skills:
-#   display: true
-#   title: Technical Skills
-#   details: |
+skills:
+  display: true
+  title: Technical Skills
+  details: |
 
-#   levels:
-#     - name: Skill A
-#       level: 90
-#     - name: Skill B
-#       level: 80
-#     - name: Skill C
-#       level: 70
+  levels:
+    - name: Python
+      level: 90
+    - name: C++
+      level: 80
+    - name: R
+      level: 70
+    - name: Java
+      level: 70
+    - name: HTML/JS
+      level: 60
+    - name: MySQL
+      level: 70
+    - name: Git
+      level: 70
+    - name: AWS/GCP
+      level: 60
+    - name: Qiskit/Cirq
+      level: 80
+    - name: MATLAB
+      level: 80
+
 
 education:
   display: true
